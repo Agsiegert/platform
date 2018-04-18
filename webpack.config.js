@@ -128,6 +128,7 @@ module.exports = (env = {}) => {
               loader: 'file-loader',
               options: {
                 name: '[name].[hash].[ext]',
+                publicPath: 'https://d3vdw1bkk0pl6s.cloudfront.net/instances/227/assets/',
               },
             },
           ],
